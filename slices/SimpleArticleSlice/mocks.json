@@ -1,0 +1,59 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "article_image": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+          "width": 6000,
+          "height": 4000
+        },
+        "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+        "width": 6000,
+        "height": 4000,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Season"
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Cupidatat ut mollit et ipsum exercitation ullamco amet pariatur anim consequat pariatur velit minim non."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

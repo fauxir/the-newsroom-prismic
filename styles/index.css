@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body,
+html {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+body svg,
+html svg {
+  width: 30px;
+}
+
+body a,
+html a {
+  text-decoration: none;
+}
+
+body img,
+html img {
+  max-width: 100%;
+}
+
+body div.container,
+html div.container {
+  padding: 1em;
+}
+
+body nav.navigation,
+html nav.navigation {
+  padding: 1em 0;
+}
+
+body nav.navigation div.container,
+html nav.navigation div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav.navigation div.container div.menu,
+html nav.navigation div.container div.menu {
+  position: fixed;
+  height: 100vh;
+  display: none;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  padding-left: 25%;
+}
+
+body nav.navigation div.container div.menu.show,
+html nav.navigation div.container div.menu.show {
+  display: block;
+}
+
+body nav.navigation div.container div.menu ul,
+html nav.navigation div.container div.menu ul {
+  height: 100vh;
+  background: #fffdfa;
+  padding: 1em;
+  padding-top: 20vh;
+  position: relative;
+}
+
+body nav.navigation div.container div.menu ul button.icon,
+html nav.navigation div.container div.menu ul button.icon {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background: transparent;
+}
+
+body nav.navigation div.container div.menu ul li,
+html nav.navigation div.container div.menu ul li {
+  list-style: none;
+  display: block;
+  padding: 1em 0;
+}
+
+body nav.navigation div.container div.menu ul li a,
+html nav.navigation div.container div.menu ul li a {
+  color: #5e607a;
+  font-size: 1.2em;
+  display: block;
+}
+
+body main.main div.container,
+html main.main div.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 64px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+body main.main div.container section.head,
+html main.main div.container section.head {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: max-content max-content;
+      grid-template-rows: -webkit-max-content -webkit-max-content;
+      grid-template-rows: max-content max-content;
+}
+
+body main.main div.container section.head img,
+html main.main div.container section.head img {
+  margin-bottom: 24px;
+}
+
+body main.main div.container section.head div.bottom h1,
+body main.main div.container section.head div.bottom p,
+html main.main div.container section.head div.bottom h1,
+html main.main div.container section.head div.bottom p {
+  margin-bottom: 16px;
+}
+
+body main.main div.container section.head div.bottom p,
+html main.main div.container section.head div.bottom p {
+  line-height: 24px;
+  color: #5e607a;
+}
+
+body main.main div.container section.head div.bottom h1,
+html main.main div.container section.head div.bottom h1 {
+  font-size: 40px;
+}
+
+body main.main div.container section.head div.bottom a,
+html main.main div.container section.head div.bottom a {
+  display: inline-block;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  background: #f15d51;
+  color: #fff;
+  font-size: 0.8em;
+  border-radius: 5px;
+}
+
+body main.main div.container section.right-aside-new,
+html main.main div.container section.right-aside-new {
+  background: #00001a;
+  padding: 1em;
+}
+
+body main.main div.container section.right-aside-new h1.title,
+html main.main div.container section.right-aside-new h1.title {
+  color: #e9aa52;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+body main.main div.container section.right-aside-new div.a-news,
+html main.main div.container section.right-aside-new div.a-news {
+  margin-bottom: 29px;
+}
+
+body main.main div.container section.right-aside-new div.a-news h3,
+html main.main div.container section.right-aside-new div.a-news h3 {
+  color: #fffdfa;
+  margin-bottom: 8px;
+}
+
+body main.main div.container section.right-aside-new div.a-news p,
+html main.main div.container section.right-aside-new div.a-news p {
+  color: #c5c6ce;
+}
+
+body main.main div.container section.right-aside-new hr,
+html main.main div.container section.right-aside-new hr {
+  margin-bottom: 31px;
+  border: 1px solid rgba(197, 198, 206, 0.3);
+}
+
+body main.main div.container section.top-news,
+html main.main div.container section.top-news {
+  display: -ms-grid;
+  display: grid;
+  padding: 1em;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-row-gap: 32px;
+}
+
+body main.main div.container section.top-news div.news,
+html main.main div.container section.top-news div.news {
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  -ms-grid-columns: 100px 1fr;
+      grid-template-columns: 100px 1fr;
+}
+
+body main.main div.container section.top-news div.news div.write-up,
+html main.main div.container section.top-news div.news div.write-up {
+  padding: 3px 0;
+}
+
+body main.main div.container section.top-news div.news div.write-up h1,
+html main.main div.container section.top-news div.news div.write-up h1 {
+  color: #c5c6ce;
+}
+
+body main.main div.container section.top-news div.news div.write-up h1,
+body main.main div.container section.top-news div.news div.write-up p,
+body main.main div.container section.top-news div.news div.write-up h4,
+html main.main div.container section.top-news div.news div.write-up h1,
+html main.main div.container section.top-news div.news div.write-up p,
+html main.main div.container section.top-news div.news div.write-up h4 {
+  margin-bottom: 0.3em;
+}
+
+body main.main div.container section.top-news div.news div.write-up p,
+body main.main div.container section.top-news div.news div.write-up h4,
+html main.main div.container section.top-news div.news div.write-up p,
+html main.main div.container section.top-news div.news div.write-up h4 {
+  color: #5e607a;
+}
+
+@media screen and (min-width: 1440px) {
+  body div.container {
+    width: 1110px;
+    margin: 0 auto;
+  }
+  body nav.navigation button.icon {
+    display: none;
+  }
+  body nav.navigation div.container {
+    width: 1110px;
+    margin: 0 auto;
+  }
+  body nav.navigation div.container div.menu {
+    position: static;
+    height: auto;
+    width: auto;
+    background: transparent;
+    display: block;
+    padding: 0;
+  }
+  body nav.navigation div.container div.menu ul {
+    padding: 0;
+    height: auto;
+    padding-left: 0;
+  }
+  body nav.navigation div.container div.menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  body nav.navigation div.container div.menu ul li a {
+    color: #5e607a;
+    font-size: 1em;
+  }
+  body main.main div.container {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "one one two" "three three three";
+  }
+  body main.main div.container section.head {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: one;
+    padding: 0;
+  }
+  body main.main div.container section.head div.bottom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  body main.main div.container section.right-aside-new {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: two;
+  }
+  body main.main div.container section.top-news {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: three;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*# sourceMappingURL=index.css.map */
