@@ -1,8 +1,8 @@
 import { SliceZone } from "@prismicio/react";
 import * as prismicH from "@prismicio/helpers";
 import Link from "next/link";
-import { createClient } from "/home/michael/Desktop/Training/Training/the-newsroom-prismic/prismicio.js";
-import { components } from "/home/michael/Desktop/Training/Training/the-newsroom-prismic/slices";
+import { createClient } from "../../prismicio";
+import { components } from "../../slices";
 
 export default function Page({ page }) {
   return (

@@ -3,8 +3,9 @@ import Link from 'next/link'
 import { PrismicProvider } from '@prismicio/react'
 import { PrismicPreview } from '@prismicio/next'
 import { repositoryName } from '../prismicio'
-import "/home/michael/Desktop/Training/Training/the-newsroom/styles/index.css"
-import reportWebVitals from "/home/michael/Desktop/Training/Training/the-newsroom/components/WebVitals";
+import "../styles/Home.module.css"
+//import reportWebVitals from "../components/WebVitals"
+
 
 export default function App({ Component, pageProps }) {
   return (
@@ -16,4 +17,4 @@ export default function App({ Component, pageProps }) {
   )
 }
 
-// reportWebVitals();
+//reportWebVitals();

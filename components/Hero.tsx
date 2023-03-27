@@ -1,5 +1,5 @@
-import mobileImage from "/home/michael/Desktop/Training/Training/the-newsroom/public/image-web-3-mobile.jpg";
-import desktopImage from "/home/michael/Desktop/Training/Training/the-newsroom/public/image-web-3-desktop.jpg";
+import mobileImage from "../public/image-web-3-mobile.jpg";
+import desktopImage from "../public/image-web-3-desktop.jpg";
 import Image from "next/image";
 import { useEffect } from "react";
 

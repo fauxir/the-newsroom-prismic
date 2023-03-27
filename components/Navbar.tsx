@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Logo from "/home/michael/Desktop/Training/Training/the-newsroom/components/Logo";
-import IconMenuClose from "/home/michael/Desktop/Training/Training/the-newsroom/components/IconMenuClose";
-import MenuIcon from "/home/michael/Desktop/Training/Training/the-newsroom/components/MenuIcon";
+import Logo from "./Logo"
+import IconMenuClose from "./IconMenuClose";
+import MenuIcon from "./MenuIcon";
 
 function NavBar() {
   const [showNavigation, setShowNavigation] = useState(false);
