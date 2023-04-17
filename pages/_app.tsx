@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { PrismicProvider } from '@prismicio/react'
 import { PrismicPreview } from '@prismicio/next'
 import { repositoryName } from '../prismicio'
-import "../styles/Home.module.css"
+import "../styles/index.css"
 //import reportWebVitals from "../components/WebVitals"
 
 

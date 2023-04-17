@@ -1,14 +1,15 @@
 import { useState } from "react";
-import Logo from "./Logo"
+import Logo from "./Logo";
 import IconMenuClose from "./IconMenuClose";
 import MenuIcon from "./MenuIcon";
+import Link from "next/link";
 
 function NavBar() {
   const [showNavigation, setShowNavigation] = useState(false);
 
   return (
     <div>
-        <nav className="navigation">
+      <nav className="navigation">
         <div className="container">
           <Logo />
 
@@ -18,19 +19,19 @@ function NavBar() {
                 <IconMenuClose />
               </button>
               <li>
-                <a href="#home">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <a href="#new">New</a>
               </li>
               <li>
-                <a href="#popular">Popular</a>
+                <Link href="/popular-articles">Popular</Link>
               </li>
               <li>
-                <a href="#trending">Trending</a>
+                <Link href="/trending-articles">Trending</Link>
               </li>
               <li>
-                <a href="#categories">Categories</a>
+                <Link href="/article-categories">Categories</Link>
               </li>
             </ul>
           </div>
